@@ -22,7 +22,7 @@ async function quantidadeUsuariosPorRede() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: 'Redes sociais com mais usuários no mundo',
+            text: 'Distribuição das famílias brasileiras por renda',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
@@ -33,7 +33,7 @@ async function quantidadeUsuariosPorRede() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'nome das redes sociais',
+                text: 'número de famílias',
                 font: {
                     color: getCSS('--secondary-color')
                 }
@@ -42,7 +42,7 @@ async function quantidadeUsuariosPorRede() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'bilhões de usuários ativos',
+                text: 'renda mensal familiar em R$',
                 font: {
                     color: getCSS('--secondary-color')
                 }
