@@ -11,7 +11,7 @@ async function vizualizarInformacoesGlobais() {
 
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `O grafico baixo aprensenta os dados sobre a renda das famílias brasileiras`
+    paragrafo.innerHTML = `O grafico baixo aprensenta os dados sobre a renda das famílias de todo Brasil`
 
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
