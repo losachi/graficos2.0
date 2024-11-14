@@ -20,7 +20,7 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-    const valores = ['47,9%','26,1%','17,8%','5,7%','2,5%']
+    const valores = ['47,9','26,1','17,8','5,7','2,5']
     const labels = ['Nordeste','Norte','Sudeste','Centro-Oeste','Sul']
 
     const data = [
