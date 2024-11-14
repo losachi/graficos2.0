@@ -5,7 +5,7 @@ async function quantidadeUsuariosPorRede() {
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = ['Até 1908','Mais de 1908 a 2862','Mais de 2862 a 5724','Mais de 5724 a 9540', 'Mais de 9540 a 14310','Mais de 14310 a 23850','Mais de 23850']
-    const quantidadeDeUsuarios = ['0','5000','10000','15000','20000','25000','30000','35000',]
+    const quantidadeDeUsuarios = ['17000','13000','20940','10000','4800','3400','1900',]
 
     const data = [
         {
