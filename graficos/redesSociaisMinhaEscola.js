@@ -54,7 +54,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(`Como no mundo, a amostra de pessoas entrevistadas por mim, demonstra um apreço pelo <span>Instagram</span> em relação a outras redes.`)
+    incluirTexto(`no gráfico acima segue as regioes mais e menos pobres.`)
 }
 
 redesSociaisFavoritasMinhaEscola()
