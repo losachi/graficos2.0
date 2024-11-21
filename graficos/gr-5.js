@@ -22,7 +22,7 @@ async function quantidadeUsuariosPorRede() {
         plot_bgcolor: getCSS('--bg-color'),
         paper_bgcolor: getCSS('--bg-color'),
         title: {
-            text: 'Distribuição das famílias brasileiras por renda',
+            text: 'Percentual de pessoas em situação de pobreza por estados, de acordo com os parâmetros do Banco Mundial,  por UF(%)',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
