@@ -33,7 +33,7 @@ async function quantidadeUsuariosPorRede() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'número de famílias',
+                text: 'Renda mensal familiar em R$',
                 font: {
                     color: getCSS('--secondary-color')
                 }
@@ -42,7 +42,7 @@ async function quantidadeUsuariosPorRede() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'renda mensal familiar em R$',
+                text: 'número de famílias',
                 font: {
                     color: getCSS('--secondary-color')
                 }
