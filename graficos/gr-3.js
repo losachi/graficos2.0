@@ -20,8 +20,8 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-    const valores = ['34.9','29','28.5',''
-    const labels = ['Mulher sem cônjuge com filho(s) de até 14 anos','Mulher preta ou parda sem cônjuge com filho(s) de até 14 anos','Mulher branca sem cônjuge com filho(s) de até 14 anos','Casal com filhos','Outros','Unipessoal','Casal sem filhos'
+    const valores = ['19.9','15.6','12.7','10.1','9.7']
+    const labels = ['Norte','Nordeste','C. Oeste','Sudeste','Sul']
         
         ','Sul']
 
@@ -39,7 +39,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Proporção de pessoas abaixo da linha de pobreza',
+            text: 'Percentual de mãe adolecentes, entre 15 e 19 anos em cada estado',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
