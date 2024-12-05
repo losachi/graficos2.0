@@ -55,7 +55,7 @@ function processarDados(dados) {
     }
 
     criarGrafico(data, layout)
-    incluirTexto(`no gráfico acima segue as regioes mais e menos pobres.`)
+    incluirTexto(`Percebe-se que o percentual maior de mães adolecentes são nas regiões que nos graficos anteriosre constam como mais pobres ou ultrapassando a linha da pobreza extrema`)
 }
 
 redesSociaisFavoritasMinhaEscola()
