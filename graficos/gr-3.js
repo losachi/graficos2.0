@@ -29,7 +29,7 @@ function processarDados(dados) {
         {
             values: valores,
             labels: labels,
-            type: 'bar',
+            type: 'pie',
             textinfo: 'label+percent'
         }
     ]
