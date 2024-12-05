@@ -20,7 +20,7 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-    const valores = ['47.9','26.1','17.8','5.7','2.5']
+    const valores = ['24394','7534','13965','2470','3470']
     const labels = ['Nordeste','Norte','Sudeste','Centro-Oeste','Sul']
 
     const data = [
@@ -37,7 +37,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Regioẽs com mais indice de pobreza no Brasil',
+            text: 'Número de pessoas (em mil) vivendo abaixo da linha da pubreza',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
