@@ -37,7 +37,7 @@ function processarDados(dados) {
         paper_bgcolor: getCSS('--bg-color'),
         height: 700,
         title: {
-            text: 'Número de pessoas (em mil) vivendo abaixo da linha da pubreza',
+            text: 'Número de pessoas (em mil) vivendo abaixo da linha da pobreza',
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
