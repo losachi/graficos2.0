@@ -20,7 +20,7 @@ function processarDados(dados) {
         acc[redesSociais] = (acc[redesSociais] || 0) + 1
         return acc
     }, {})
-    const valores = ['56,9','64,4','41,5','30,4','21,0','11,6','10,0']
+    const valores = ['40,9','34','28,5','30','21','11','10']
     const labels = ['Mulher sem cônjuge com filho(s) de até 14 anos','Mulher preta ou parda sem cônjuge com filho(s) de até 14 anos','Mulher branca sem cônjuge com filho(s) de até 14 anos','Casal com filhos','Outros','Unipessoal','Casal sem filhos'
         
         ','Sul']
