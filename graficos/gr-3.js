@@ -23,7 +23,6 @@ function processarDados(dados) {
     const valores = ['19.9','15.6','12.7','10.1','9.7']
     const labels = ['Norte','Nordeste','C. Oeste','Sudeste','Sul']
         
-        ','Sul']
 
     const data = [
         {
